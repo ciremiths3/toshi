@@ -72,6 +72,8 @@ GEM
       ffi-compiler (>= 0.0.2)
       rake
     sequel (4.13.0)
+    sequel_model (3.8.0)
+      sequel (>= 3.8.0)
     sidekiq (3.2.1)
       celluloid (>= 0.15.2)
       connection_pool (>= 2.0.0)
@@ -116,6 +118,7 @@ DEPENDENCIES
   rspec
   scrypt
   sequel
+  sequel_model
   sidekiq
   sinatra
   sinatra-contrib
